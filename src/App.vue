@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <test msg="Hello"></test>
   </div>
 </template>
 
 <script>
+import Test from "./components/test";
 export default {
   name: 'app',
   components: {
+    Test
   }
 }
 </script>
