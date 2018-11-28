@@ -9,8 +9,10 @@
         <ul>
             <li v-for="item in items">{{item.title}}</li>
         </ul>
+        <!-- with v-on event handlers can be attached to elements -->
         <button v-on:click="greet('Hello World')">Say Hello</button><br>
         <button v-on:click="greet">Say Hello</button><br>
+        <!-- for key events there are predefined events that check for types of keys -->
         <input type="text" v-on:keyup="pressKey" v-on:keyup.enter="enterHit">
         <hr>
         <!-- v-model it's a tow way data binding -->
